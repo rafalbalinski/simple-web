@@ -15,6 +15,6 @@ docker run -d --name lab2-container -p 8080:8080 lab2.v1
 ## Zapisanie obrazu w repozytorium
 
 ```sh
-docker commit rabalbalinski/lab2 rbalinski-lab2
+docker commit lab2-container rafalbalinski/lab2
 docker push rabalbalinski/lab2
 ```
